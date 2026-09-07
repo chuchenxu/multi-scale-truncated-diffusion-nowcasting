@@ -51,7 +51,13 @@ The overall forecasting process contains four phases:
 3. Fragment-wise truncated residual diffusion;
 4. Lead-time-aware correction.
 
-> The framework figure will be added here.
+<p align="center">
+  <img src="figures/framework.png" width="100%">
+</p>
+
+<p align="center">
+  <b>Overall framework of the proposed multi-scale truncated diffusion model with lead-time-aware correction.</b>
+</p>
 
 ---
 
@@ -79,7 +85,21 @@ The Wannan Mountain Radar dataset is constructed for precipitation nowcasting ov
 
 ## Qualitative Results
 
-Qualitative comparisons on the SEVIR and CIKM datasets will be added here.
+### SEVIR
+
+<p align="center">
+  <img src="figures/sevir_results.png" width="100%">
+</p>
+
+Qualitative comparison on representative SEVIR cases. Our method better preserves precipitation structures, localized high-intensity regions, and spatial continuity, particularly at longer forecast lead times.
+
+### CIKM
+
+<p align="center">
+  <img src="figures/cikm_results.png" width="100%">
+</p>
+
+Qualitative comparison on representative CIKM cases. Our method maintains precipitation distributions closer to the ground truth while preserving local echo structures and high-intensity regions.
 
 ---
 
